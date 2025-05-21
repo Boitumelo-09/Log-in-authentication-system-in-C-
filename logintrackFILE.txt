@@ -1,0 +1,48 @@
+Username     : Selina
+Attempt no   :1
+Access Status: DENIED 
+Timestamp    :Thu 05 22 2025 00:23:32
+
+________________________________________________________
+Username     : Selina
+Attempt no   :2
+Access Status: DENIED 
+Timestamp    :Thu 05 22 2025 00:23:32
+
+________________________________________________________
+Username     : Selina
+ Attempt no   : 3
+ Access Status: GRANTED
+ Timestamp    : Thu 05 22 2025 00:23:32
+
+________________________________________________________
+Total Runtime :15 seconds
+
+.....................Program Terminated.....................
+
+
+Username     : debugger
+Attempt no   :1
+Access Status: DENIED 
+Timestamp    :Thu 05 22 2025 00:23:54
+
+________________________________________________________
+Username     : debugger
+Attempt no   :2
+Access Status: DENIED 
+Timestamp    :Thu 05 22 2025 00:23:54
+
+________________________________________________________
+Username     : debugger
+Attempt no   :3
+Access Status: DENIED 
+Timestamp    :Thu 05 22 2025 00:23:54
+
+________________________________________________________
+ Locked Out Because Of Failed Multiple Attempts
+________________________________________________________
+Total Runtime :41 seconds
+
+.....................Program Terminated.....................
+
+
