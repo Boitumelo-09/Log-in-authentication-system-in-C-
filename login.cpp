@@ -28,7 +28,6 @@ void authentication()
         std::cout << "Today's Date: " << ctime(&currentTime) << std::endl
                   << std::endl;
         printf("Enter Your Password:");
-
         getline(std::cin, holder);
         file << "Username     : " << username
              << std::endl;
@@ -53,14 +52,12 @@ void authentication()
         {
             if (file.is_open())
             {
-
                 file << "Attempt no   :" << attempts + 1 << std::endl;
                 file << "Access Status: DENIED \n";
                 file << "Timestamp    :" << buffer << std::endl
                      << std::endl
                      << "________________________________________________________\n";
                 ;
-
                 attempts++;
             }
         }
@@ -78,9 +75,7 @@ int main()
 {
 
     time_t start = time(nullptr);
-
     authentication();
-
     time_t end = time(nullptr);
     double runtime = difftime(end, start);
     file << "Total Runtime :" << runtime << " seconds" << std::endl
